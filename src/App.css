@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+form {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: #556b2f;
+}
+
+.ContainerItems {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-image: linear-gradient(to right, #1f4f4f, #4b0082);
+  border-radius: 10px;
+  padding: 30px;
+  color: #eee;
+  font-size: 1rem;
+}
+
+img {
+  max-width: 300px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  width: 300px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+button {
+  width: 200px;
+  height: 35px;
+  border-radius: 7px;
+  border: none;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  background-color: #4b0082;
+  color: #eee;
+}
