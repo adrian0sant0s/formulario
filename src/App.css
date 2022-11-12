@@ -18,7 +18,7 @@ form {
 .ContainerItems {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
   background-image: linear-gradient(to right, #1f4f4f, #4b0082);
   border-radius: 10px;
   padding: 30px;
@@ -59,6 +59,15 @@ button:hover {
 }
 
 button:active {
-  background-color: #4b0082;
+  background-image: linear-gradient(to right, #4b0082, #1f4f4f);
   color: #eee;
+}
+
+span {
+  color: red;
+  position: absolute;
+  margin-top: 57px;
+  margin-left: 10px;
+  font-size: 0.7rem;
+  font-weight: 300;
 }
